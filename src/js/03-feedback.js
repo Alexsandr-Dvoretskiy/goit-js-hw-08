@@ -4,8 +4,8 @@ const feedbackForm = document.querySelector('.feedback-form');
 
 feedbackForm.addEventListener('input', throttle(localData, 500));
 
-const email = document.querySelector('[name="email"]');
-const message = document.querySelector('[name="message"]');
+const email = document.querySelector('[name = "email"]');
+const message = document.querySelector('[name = "message"]');
 
 function localData() {
   const formData = {
